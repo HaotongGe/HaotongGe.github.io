@@ -4,6 +4,7 @@ h1{
 	font-size: 30px;
 	font-family: "Lucida Console", helvetica, sans-serif;
 	padding-bottom: 10px;
+	padding-left: 280px;
 }
 
 
@@ -11,7 +12,7 @@ h1{
 	overflow: hidden;
 }
 
-button{
+#barButton{
 	width: 250px;
 	font-family: monaco, helvetica, sans-serif;
 	font-size: 12px;
@@ -19,24 +20,33 @@ button{
 	font-weight: bold;
 }
 
-.div1 button{
+#addCart{
+	width: 300px;
+	font-family: monaco, helvetica, sans-serif;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.div1 #barButton{
 	background-color: #EBDEF0;
 	cursor: pointer;
 	float: left;
-	text-align: center;
 	padding: 14px 16px;
 	border: none;
 	outline: none;
 	transition: 0.3s;
 }
 
-.div1 button:hover {
+.div1 #barButton:hover {
   	background-color: #FDFEFE;
 }
 
-.div1 button.active {
+.div1 #barButton.active {
 	background-color: #FDFEFE;
 }
+
+
 
 h3{
 	font-size: 28px;
@@ -53,6 +63,43 @@ h3{
   	font-family: monaco, helvetica, sans-serif;
 }
 
+#chooseRestrictions{
+	margin-top: 50px;
+}
+
+#restrictions{
+	margin-top: 15px;
+}
+
+#preference{
+	margin-top: 15px;
+}
+
+#preferOr{
+	margin-top: 15px;
+
+}
+
+#sale{
+	margin-top: 15px;
+}
+
+#preferSale{
+	margin-top: 15px;
+	margin-bottom: 50px;
+
+}
+
+#howPick{
+	margin-top: 50px;
+}
+
+#pickup{
+	margin-top: 20px;
+	margin-bottom: 50px;
+
+}
+
 #product{
 	margin-top: 15px;
 	font-size: 18px;
@@ -64,6 +111,11 @@ h3{
 }
 
 #stext1{
+	font-size: 18px;
+}
+
+#stext2{
+	margin-top: 50px;
 	font-size: 18px;
 }
 
